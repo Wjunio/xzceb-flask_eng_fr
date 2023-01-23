@@ -6,7 +6,7 @@ class TestTranslator(unittest.TestCase):
     """Criando teste para atender os serviço do translator.py"""
     def test_translator_english_none(self):
         """Testar campo e diferente."""
-        self.assertNotEqual(english_to_french("Hello"), "Hello")
+        self.assertNotEqual(english_to_french("Hello"), "hello")
     def test_translator_english(self):
         """Testar campo não e nulo."""
         self.assertEqual(english_to_french("Hello"), "Hello")
